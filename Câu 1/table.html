@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./table.css">
+    <title>Bài 1</title>
+</head>
+<body>
+    <div class="wrap">
+        <h3>Liên hệ góp ý</h3>
+        <div class="item">
+            <p>Họ và tên</p>
+            <input type="text">
+        </div>
+        <div class="item">
+            <p>Email</p>
+            <input type="text" >
+        </div>
+        <div class="item">
+            <p>Nội dung</p>
+            <input type="text">
+        </div>
+        <br>
+        <input type="submit" value="Gửi">
+    </div>
+    <style>
+        .wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #666;
+            width: 400px;
+            border-radius: 3px;
+            padding: 20px ;
+        }
+        .item{
+            width: 100%;
+        }
+        input{
+            width: 100%;
+        }
+        h3{
+            margin: 0;
+        }
+    </style>
+</body>
+</html>
